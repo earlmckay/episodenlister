@@ -1,0 +1,19 @@
+# Node & Electron
+node_modules/
+dist/
+out/
+
+# Keine exportierten Builds
+*.dmg
+*.exe
+*.zip
+*.app
+
+# macOS-Dateien
+.DS_Store
+
+# Logs
+*.log
+
+# Build-Ordner: nur erzeugte Dateien ignorieren
+build/*.nsis.*

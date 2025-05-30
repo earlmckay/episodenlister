@@ -1,0 +1,32 @@
+{
+  "name": "episodenlister",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^36.3.2",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "build": {
+    "appId": "de.deinname.episodenlister",
+    "productName": "Episodenlister",
+    "directories": {
+      "buildResources": "build"
+    },
+    "mac": {
+      "icon": "favicon.icns"
+    },
+    "win": {
+      "icon": "favicon.ico"
+    }
+  }
+}
